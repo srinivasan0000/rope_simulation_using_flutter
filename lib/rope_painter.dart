@@ -17,7 +17,7 @@ class RopePainter extends CustomPainter {
       // ..blendMode = BlendMode.
       ..shader = const LinearGradient(
         tileMode: TileMode.repeated,
-        colors: [Color.fromARGB(255, 225, 30, 16), Colors.red, Color.fromARGB(255, 203, 88, 80)],
+        colors: [Color.fromARGB(255, 225, 30, 16), Colors.red, Color.fromARGB(255, 243, 24, 8)],
         stops: [0.0, 0.5, 1.0],
       ).createShader(Rect.fromPoints(const Offset(0, 0), Offset(size.width, size.height)))
       ..color = ropeColor
